@@ -16,8 +16,8 @@ public class UC3{
 
         {
             case 0:
-                System.out.println("No Play");
-                startPosition = 0;
+                System.out.println("Snake");
+                startPosition = dieRoll;
                 break;
 
             case 1:
@@ -26,8 +26,8 @@ public class UC3{
                 break;
 
             default:
-                System.out.println("Snake");
-                startPosition = dieRoll;
+                System.out.println("NO PLAY");
+                startPosition = 0;
         }
         System.out.println("Player " + Player_Name + "On Position :" + startPosition);
 
