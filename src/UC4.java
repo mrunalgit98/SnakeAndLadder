@@ -19,8 +19,8 @@ public class UC4 {
 
             switch (checkOption) {
                 case 0:
-                    System.out.println("No Play");
-                    startPosition += 0;
+                    System.out.println("Snake : " + " - " + dieRoll);;
+                    startPosition += dieRoll;
                     break;
 
                 case 1:
@@ -29,13 +29,9 @@ public class UC4 {
                     break;
 
                 default:
-                    System.out.println("Snake : " + " - " + dieRoll);
-                    startPosition -= dieRoll;
+                    System.out.println("NO PLAY");
+                    startPosition += 0;
 
-                    if (startPosition < 0) {
-                        System.out.println("Start Again");
-                        startPosition = 0;
-                    }
 
             }
 
