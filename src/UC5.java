@@ -28,13 +28,11 @@ public class UC5{
 					 System.out.println("Start again");
 					 startPosition -= dieRoll;
 					 
-					 if(startPosition<0) {
-						 System.out.println("Start position");
-						 startPosition=0;
+					
 			   }
 			 }
 		   }
-		}
 		System.out.println("Player" + Player_Name + "winning position" +startPosition);
+		}
 	}
 }
