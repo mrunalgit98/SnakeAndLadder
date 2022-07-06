@@ -15,8 +15,8 @@ public class UC5{
 			 
 			 switch (checkOption) {
 			 case 0:
-				 System.out.println("No Play");
-				 startPosition +=0;
+				 System.out.println("snake" +dieRoll);
+				 startPosition -=0;
 				 break;
 				 
 			 case 1:
@@ -26,7 +26,7 @@ public class UC5{
 				 
 				 default:
 					 System.out.println("Start again");
-					 startPosition -= dieRoll;
+					 startPosition += dieRoll;
 					 
 					
 			   }
